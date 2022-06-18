@@ -3,7 +3,11 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "api-auth": "libs/api/auth",
+    "api-food": "libs/api/food",
+    "api-users": "libs/api/users",
     "client-next": "apps/client-next",
-    "client-next-e2e": "apps/client-next-e2e"
+    "client-next-e2e": "apps/client-next-e2e",
+    "utils": "libs/utils"
   }
 }

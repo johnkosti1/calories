@@ -1,6 +1,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
@@ -14,7 +16,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@calories/api/auth": ["libs/api/auth/src/index.ts"],
+      "@calories/api/food": ["libs/api/food/src/index.ts"],
+      "@calories/api/users": ["libs/api/users/src/index.ts"],
+      "@calories/utils": ["libs/utils/src/index.ts"],
+      "@calories/utils/types": ["libs/utils/src/lib/types"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

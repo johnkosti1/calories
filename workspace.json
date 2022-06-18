@@ -6,6 +6,7 @@
     "api-auth": "libs/api/auth",
     "api-food": "libs/api/food",
     "api-users": "libs/api/users",
+    "client-auth": "libs/client/auth",
     "client-next": "apps/client-next",
     "client-next-e2e": "apps/client-next-e2e",
     "utils": "libs/utils"

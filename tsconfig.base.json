@@ -20,6 +20,8 @@
       "@calories/api/auth": ["libs/api/auth/src/index.ts"],
       "@calories/api/food": ["libs/api/food/src/index.ts"],
       "@calories/api/users": ["libs/api/users/src/index.ts"],
+      "@calories/client/auth": ["libs/client/auth/src/index.ts"],
+      "@calories/client/auth/pages/*": ["libs/client/auth/src/lib/pages/*"],
       "@calories/utils": ["libs/utils/src/index.ts"],
       "@calories/utils/types": ["libs/utils/src/lib/types"]
     }

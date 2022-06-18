@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "api": "apps/api",
     "client-next": "apps/client-next",
     "client-next-e2e": "apps/client-next-e2e"
   }
